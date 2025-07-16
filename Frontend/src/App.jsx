@@ -23,7 +23,7 @@ function App() {
   async function reviewCode() {
     setLoading(true) // Show loader
     try {
-      const response = await axios.post('http://localhost:3000/ai/get-review', { code })
+      const response = await axios.post('https://code-reviewer-backend-hqzb.onrender.com/ai/get-review', { code })
       setReview(response.data)
     } catch (err) {
       setReview("❌ Error fetching review. Please try again.")
