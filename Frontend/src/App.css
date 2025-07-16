@@ -70,3 +70,9 @@ main .right {
   font-size: 1.5rem;
   overflow: auto;
 }
+
+.loader {
+  font-size: 18px;
+  color: #888;
+  padding: 20px;
+}
